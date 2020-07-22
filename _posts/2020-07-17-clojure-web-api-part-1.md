@@ -165,7 +165,7 @@ File: system.clj
   [port]
   (map->WebServer {:port port}))
 ```
-This will be the function that you will call in the main method. Speaking of main method...let's create one!
+This will be the function that you will call in the main method. Speaking of the main method...let's create one!
 
 Navigate to `core.clj`. You can remove the `foo` function if you'd like. Now you will need to create a main method that calls the `web-server` function within your `system.server` namespace. You will need two namespaces in `core.clj`. The namespace of `system.server` as well as `component` from the dependency you installed earlier. Your namespace should look something like this
 ```
