@@ -48,6 +48,10 @@ social_media:
   # youtube: your_username
 
 topics:
+  - name: Elixir
+    web_url: https://github.com/topics/elixir
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/elixir/elixir.png
+ 
   - name: Clojure
     web_url: https://github.com/topics/clojure
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/clojure/clojure.png
