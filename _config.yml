@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -35,13 +34,13 @@ social_media:
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  linkedin: jvmboi
-  devto: tjb
+  # linkedin: jvmboi
+  # devto: tjb
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  twitter: tjb_dev
+  # twitter: tjb_dev
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
@@ -51,7 +50,7 @@ topics:
   - name: Elixir
     web_url: https://github.com/topics/elixir
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/elixir/elixir.png
- 
+
   - name: Clojure
     web_url: https://github.com/topics/clojure
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/clojure/clojure.png
@@ -60,7 +59,7 @@ topics:
     web_url: https://github.com/topics/neovim
     image_url: https://raw.githubusercontent.com/github/explore/26674e638508ac4a4e113ee32d6755ebfa000569/topics/neovim/neovim.png
 
-expertise: 
+expertise:
   - name: Java
     web_url: https://github.com/topics/java
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
