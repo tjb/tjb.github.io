@@ -5,7 +5,7 @@
 {% endif %}
 
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">Hi! I'm Tyler.</h1>
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed"></h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
@@ -20,12 +20,6 @@
         </a>
       </div>
     {% endif %}
-      <div class="{{ metadata_styles }}">
-        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        <a href="mailto:hello@tjb.dev" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          hello@tjb.dev
-        </a>
-      </div>
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
